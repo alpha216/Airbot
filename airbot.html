@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="robots" content="noindex, nofollow">
+<style type="text/css">
+    * { box-sizing: border-box; 
+        margin: 0px;
+    }
+    @font-face {
+        font-family:"Youtubefont";
+        src: url("./font/youtube-sans.woff2") format("woff2"),
+            url("./font/youtube-sans.woff") format("woff"),
+            url("./font/youtube-sans.ttf") format("truetype");
+    }   
+    a{
+        text-decoration:none;
+    }
+    #container{
+        display: flex;
+        width: 100%;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        min-height: 100vh;
+        background: #e8ced8;
+    }
+    .name{
+        font-family: "Youtubefont";
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+    #main{
+        width: 300px;
+        border-radius: .7rem;
+        border: 0px;
+        background:  #fbfbfb;
+        box-shadow:  8px 8px 16px #b7b7b7,
+             -8px -8px 16px #ffffff;
+    }
+    #icon{
+        width: 30px;
+        height: 30px;
+        margin-right: .5em;
+        margin-left: .5em;
+    }
+    #logo{
+        width: 300px;
+        height: 300px;
+    }
+</style>
+</head>
+<body>
+<div id="container">
+    <div id="main">
+        <div>
+            <span class="name">Air Bot</span>
+        </div>
+        <div>   
+            <img id="logo" src="./img/airbot.png">
+        </div>
+        <div style="margin-top: .4em; margin-bottom: .4em;">
+            <span>
+                <a href="https://discord.com/api/oauth2/authorize?client_id=802879076313858049&permissions=8&scope=bot">
+                    <img id="icon" src="./img/discord.png">
+                </a>
+            </span>
+            <span>
+                <a href="https://open.kakao.com/o/gbbQ8kJb">
+                    <img id="icon" src="./img/kakaotalk.svg">
+                </a>
+            </span>
+            <span>
+                <a href="https://github.com/everythingisformathieu/">
+                    <img id="icon" src="./img/github.svg">
+                </a>
+            </span>
+        </div>    
+    </div>
+    </div>
+</body>
+</html>
